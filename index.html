@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">  
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Building a Sign-In for Rohit Construction Site in Livingston</title>
+</head>
+<body>
+<!-- Start of form introduction-->
+    <div class="introduction">
+    
+        <h1 id="title">Please sign in to the Livingston North and South Sites</h1>
+         <p id="description">For safety and emergency purposes, it is essential that all trades sign in when working at the Livingston site.
+             This helps us maintain an accurate record of who is on-site at any given time, ensuring everyone's 
+                safety and enabling Rohit staff to respond effectively in case of an emergency.
+
+                Your cooperation in signing in is greatly appreciated and plays a
+                vital role in maintaining a secure and organized work environment.</p>
+</div>
+    <!-- End of form introductory-->
+
+    <main> <!-- Start of main-->
+
+    <!-- Start of form -->
+     <form id="survey-form">
+        
+            <!-- Start of input container -->
+            <div class="input-container">
+
+        <!-- Start of name field -->
+        <label for="name" id="name">Please Enter Name: <input id="name-label" 
+            name="name-label" type="text" placeholder="Enter Name"></label>
+
+        <!-- Start of email field -->
+         <label for="email" id="email">Please Enter Email: <input id="email-label" name="email-label" 
+            type="email" placeholder="Enter Email"></label>
+
+         <!-- Start of number field -->
+      <label for="number" id="number">Please Enter Number:  <input id="number-label" name="number-label" type="number" 
+        min="13" max="125" placeholder="Enter Number" required></label>
+    
+
+    <p id="para-dropdown">Please select the site you are working on:</p>
+        <!-- Start of select dropdown field -->
+         <select id="dropdown" name="dropdown">
+            <option value="select">Select</option>
+            <option value="north">Livingston North</option>
+            <option value="south">Livingston South</option>
+            <option value="sage-meadows">Sage Meadows</option>
+            <option value="sore">Sora</option>
+            <option value="seton">Seton</option>
+        </select>
+    
+
+        <!-- Start of Orientation Radio Button -->
+        <p id="para-radio">Have you been orientated for the site you have selected?</p>
+     
+        <label for="orienations-yes" id="orientation-yes"> 
+            <input type="radio" name="orientations-type" id="orienations-yes" value="yes" checked>Yes
+        </label>
+
+        <label for="orienations-no" id="orientation-no">
+            <input type="radio" name="orientations-type" id="orienations-no" value="no">No
+         </label>
+        
+
+        <!-- Start of Checkbox field -->
+         <p id="para-checkbox"> What are you bringing to site so we can track the items while you are gone?</p>
+         
+         <label for="tools" id="tools"> <input type="checkbox" name="asset-type" 
+            id="tools-label" value="tools">Tools</label>
+        
+        <label for="zoomboom" id="zoomboom"><input type="checkbox" id="zoomboom-label" name="asset-type" 
+            value="zoomboom"> Zoomboom</label>
+
+        <label for="ladders" id="ladders"><input type="checkbox" id="ladders-label" name="asset-type" 
+            value="ladders"> Ladders</label>
+
+        <label for="scaffolding" id="scaffolding"><input type="checkbox" id="scaffolding-label" name="asset-type" 
+            value="scaffolding"> Scaffolding</label>
+
+            <!-- Start of extra information field -->
+            <label for="extra-comments" id="extra-comments" > Please provide extra information about the site.
+                <textarea id="extra-comments-label" name="extra-comments" row="3" cols="30"
+                 placeholder="Add Additional Comments..."></textarea></label>
+                </div> <!-- End of div -->
+
+        <!-- Start of submit button -->
+        <Label for="submit">
+            <button type="submit" id="submit">Submit</button>
+        </Label>
+    
+    </div> <!-- End of div -->
+        </form> <!--end of form-->
+    
+    </main> <!-- end of main-->
+
+</body>
+</html>
