@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 20px solid rgba(23, 73, 73, 0.833);
+    background-color: rgb(112, 204, 247);
+    border-radius: 10px;
+
+
+}
+main {
+
+    background-color:  rgb(112, 204, 247);
+
+}
+.header {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:  'Times New Roman', serif;
+    background-color: rgba(23, 73, 73, 0.833);
+    color: rgb(237, 247, 241);
+    text-align: center;
+    border-radius: 15px 50px 30px;
+    padding: 0 10px 1px 10px;
+    box-shadow: 30px 30px 50px rgb(23, 73, 73);
+
+    
+
+}
+
+.introduction {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(112, 204, 247);
+    color: rgb(255, 255, 254);
+    text-align: center;
+}
+
+.img-div {
+    width: 50%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    background-color: rgba(112, 204, 247);
+    color: rgb(19, 9, 22);
+    text-align: center;
+    
+}
+
+#img-caption {
+    font-size: 1.5rem;
+    color: rgb(19, 9, 22);
+    background-color: rgba(215, 125, 60, 0.414);
+    box-shadow: 0 0 15px 10px rgba(92, 48, 105, 0.5);
+    border-radius: 15px;
+    padding: 0.7rem 0 0.5rem 0;
+    margin-top: 0.8rem;
+    
+}
+
+.tribute-info {
+    width: 97%;
+    margin-right: auto;
+    background-color: rgb(112, 204, 247);
+    color: rgb(19, 9, 22);
+    text-align: left;
+    padding: 0 10px 1px 10px;
+}
+
+.tribute-info h2 {
+    display: inline-block;
+    border-bottom: 5px double rgb(19, 9, 22);
+}
+
+.tribute-info p {
+    font-size: 1.2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tribute-info ul {
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    list-style-type: none; 
+}
+
+.tribute-info li {
+    
+    padding-top: 50px;;
+}
+.tribute-info blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.tribute-info blockquote p {
+    padding-top: 10px;
+}
+
+.tribute-footer {
+    width: 97%;
+    margin-right: auto;
+    background-color: rgb(112, 204, 247);
+    color: rgb(19, 9, 22);
+    text-align: left;
+    padding: 0 10px 1px 10px;
+}
+.tribute-footer h2 {
+    display: inline-block;
+    border-bottom: 5px double rgb(19, 9, 22);
+}
+
+.tribute-footer ul {
+    font-size: 1.0rem;
+    margin-left: -2rem;
+    margin-top: 0rem;
+    text-align: left;
+    width: 100%;
+    list-style-type: none; 
+
+}
+.tribute-footer p {
+    font-size: 1.0rem;
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+}
