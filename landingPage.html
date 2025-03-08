@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="landingPage.css">
+        <title> Building a Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <!-- Start of body -->
+    <body>
+        <header id="header">
+            <img src="landingPageIMG.png" alt="landingPageIMG" id="header-img">
+            <nav id="nav-bar">
+                <ul>
+                    <li class="nav-link"><a href="#pricing-plans">Pricing</a></li>
+                    <li class="nav-link"><a href="#blog">Blog</a></li>
+                    <li class="nav-link"><a href="#about">Premiers</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="space"><hr></div> <!-- this is a space between the header and the form -->
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <fieldset>
+                <input id="email" name="email" type="email"
+                       placeholder="Enter Email Address" required>
+                <input id="submit" type="submit" value="Get Started" class="btn">
+            </fieldset>
+        </form>
+        <div class="space"><hr></hr></div>
+        <iframe src="https://www.youtube.com/embed/SJcNh8TnwUg" frameborder="0" allowfullscreen id="video"></iframe>
+
+        <div class="space"><hr></div> <!-- This is a space between the video and the next section -->
+
+        <section class="blog-section" >
+            <article class="blog-article" id="blog">
+                <div class="blog-container">
+                    <h2 class="header-blog" >Blog all about me because I am a narcicist</h2>
+                </div>
+                <p class="blog-text">
+                    In the ever-evolving landscape of web development, the importance of user experience cannot be overstated.
+                    As developers, we strive to create interfaces that are not only visually appealing but also intuitive and responsive.
+                    This involves a careful balance of design principles, accessibility considerations, and performance optimization.
+                    For instance, utilizing CSS Flexbox allows for dynamic layouts that adapt seamlessly to different screen sizes, ensuring
+                    that users have a consistent experience whether they are on a desktop, tablet, or mobile device. By prioritizing user-centric design, we can enhance engagement
+                    and satisfaction, ultimately leading to higher retention rates and conversions.
+                </p>
+
+                <p class="blog-text">
+                    Moreover, the integration of modern JavaScript frameworks has revolutionized the way we build interactive web applications. Frameworks
+                    like React, Vue, and Angular provide powerful tools for creating reusable components, managing state, and handling complex user interactions.
+                    This modular approach not only streamlines the development process but also promotes code maintainability and scalability. As we embrace these technologies,
+                    it is essential to stay updated with best practices and emerging trends, such as server-side rendering and progressive web apps, which can significantly improve performance
+                    and user experience. By leveraging these advancements, developers can create applications that are not only functional but also delightful to use.
+                </p>
+
+                <p class="blog-text">
+                    Finally, the role of collaboration and communication in the development process cannot be overlooked. Working in teams often involves cross-functional
+                    collaboration, where designers, developers, and stakeholders come together to align on project goals and deliverables. Effective communication fosters a
+                    culture of innovation and creativity, allowing team members to share ideas and feedback openly. Tools like version control systems, project management software,
+                    and design collaboration platforms facilitate this process, ensuring that everyone is on the same page. As we continue to navigate the complexities of web development,
+                    embracing collaboration will be key to delivering high-quality products that meet the needs of users and businesses alike.
+                </p>
+            </article>
+        </section>
+
+        <div class="space"><hr></div> <!-- This is a space between the video and the next section -->
+
+        <!-- Start of pricing section -->
+        <section id="pricing-plans" class="pricingSection">
+            <div class="boxPricing">
+                <h2 class="tiersH2">FREE</h2>
+                <h3 class="tiersH3">Basic Coding Plan</h3>
+                <ul class="tiersUl">
+                    <li class="tiersLi">Coding BootCamp
+
+                    <li class="tiersLi">Videos learning basic HTML and CSS</li>
+                    <li class="tiersLi">Videos learning Basic javascript</li>
+
+                    </li>
+
+                    <li>Code 1 project example on your free tier </li>
+                </ul>
+                <input id="submit1" type="submit" value="Select" class="btnSubmit">
+            </div>
+            <div class="boxPricing">
+                <h2 class="tiersH2">$20 Per Month</h2>
+                <h3 class="tiersH3">Coding Plan Plus</h3>
+                <ul class="tiersUl">
+                    <li class="tiersLi">Everything included from basic plan</li>
+                    <li class="tiersLi">Tutorials showing how to code project examples</li>
+                    <li class="tiersLi">IDE provided with three windows. Changes are made are
+                        updated while making changes to the website </li>
+                    <li class="tiersLi">20 projects examples saved to our cloud</li>
+                </ul>
+                <input id="submit2" type="submit" value="Select" class="btnSubmit">
+            </div>
+
+            <div class="boxPricing">
+                <h2 class="tiersH2">$40 Per Month</h2>
+                <h3 class="tiersH3">Coding Plan Supreme</h3>
+                <ul class="tiersUl">
+                    <li class="tiersLi">Everything included from plus, basic plan</li>
+                    <li class="tiersLi">40 projects examples saved to our cloud</li>
+                    <li class="tiersLi">AI Coach included to help you finish the projects faster </li>
+                </ul>
+                <input id="submit3" type="submit" value="Select" class="btnSubmit">
+            </div>
+        </section>
+    <!-- End of pricing section -->
+        <section id="about">
+            <h2>About</h2>
+            <p>Elara had a habit of collecting mismatched socks,
+                not because she lost the pairs, but because she believed
+                each sock held a unique story waiting to be told.
+                Her laughter was a sudden burst of sunshine, often triggered by the most
+                mundane observations, like a pigeon's particularly determined waddle or
+                the way a streetlamp cast long, dancing shadows. She carried a worn copy
+                of "One Hundred Years of Solitude" everywhere, its pages dog-eared and
+                stained with the ghosts of countless cups of tea, and she spoke with her
+                hands, weaving intricate tapestries of gestures that somehow made even the
+                simplest anecdotes feel epic. Her eyes, the color of sea glass after a storm,
+                held a quiet intensity, hinting at a depth of thought that often left others
+                both intrigued and slightly intimidated.</p>
+        </section>
+    </body>
+<!-- End of body -->
+</html>
