@@ -1,0 +1,189 @@
+body {
+    background-color: #e8cece;
+}
+#header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e8cece;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+#header-img {
+    width: 3rem;
+    height: 100%;
+}
+
+#nav-bar {
+    display: flex;
+    background-color: #e8cece;
+
+
+}
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+
+
+}
+.nav-link {
+    list-style-type: none;
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 5rem;
+    justify-content: space-evenly;
+
+
+}
+.nav-link a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#form {
+
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+#form fieldset {
+
+    display: flex;
+    flex-direction: column;
+    border:none;
+    row-gap: 2rem;
+    align-items: center;
+}
+.space {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#video {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#email {
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.0rem;
+}
+#submit {
+    width: 20rem;
+    height: 2rem;
+    background-color: #e44c4c;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.header-blog {
+    display: inline-block;
+    font-size: 2rem;
+    font-family: Lucida Console, serif, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.3rem;
+    border-bottom: 1px solid #333;
+}
+.blog-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-article {
+    font-size: 0.8rem;
+    font-family: Lucida Console, serif, sans-serif;
+    letter-spacing: 0.2rem;
+    line-height: 1.5rem;
+    padding: 1.5rem;
+}
+.pricingSection {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.boxPricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 400px;
+    height: auto;
+    border: 3px solid #000;
+    box-shadow: 5px 5px 5px #40405e;
+    border-radius: 10px;
+    padding-bottom: 1.5rem;
+}
+.tiersH2 {
+     font-size: 1.7rem;
+     font-family: fantasy, serif, sans-serif;
+     font-weight: bolder;
+     letter-spacing: 0.2rem;
+     padding-top: 1rem;
+     margin-bottom: -0.5rem;
+ }
+.tiersH3 {
+    font-size: 1.3rem;
+    font-family: fantasy, serif, sans-serif;
+    letter-spacing: 0.2rem;
+    padding-top: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+}
+.tiersUl {
+    list-style-type: none;
+    font-size: 0.8rem;
+    font-family: Lucida Console, serif, sans-serif;
+    letter-spacing: 0.2rem;
+    padding-top: 1rem;
+    margin-top: 0.3rem;
+}
+.tiersLi{
+    font-size: 0.8rem;
+    font-family: Lucida Console, serif, sans-serif;
+    letter-spacing: 0.2rem;
+    padding-top: 0.5rem;
+    margin-top: 0.3rem;
+}
+.btnSubmit {
+    width: 20rem;
+    height: 2rem;
+    background-color: #e44c4c;
+    border-radius: 10px;
+    font-size: 1.5rem;
+
+}
+#submit3{
+    position: relative;
+    top: 4rem;
+}
+
+#submit1{
+    position: relative;
+    top: 4rem;
+}
+@media (min-width: 600px) {
+    .pricing-box {
+        width: 45%; /* Change to 45% width for medium screens */
+        display: inline-block; /* Align boxes side by side */
+        margin: 2.5%; /* Adjust margin for spacing */
+    }
+}
+
+@media (min-width: 900px) {
+    .pricing-box {
+        width: 30%; /* Change to 30% width for larger screens */
+    }
+}
