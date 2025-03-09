@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar {
+    position: fixed;
+    width: 400px; /* Increased from 300px */
+    height: 100vh;
+    left: 0;
+    top: 0;
+    border: 2px solid black;
+    background-color: #acaaaa;
+    overflow: hidden; /* Changed from overflow-y: auto */
+}
+
+#navbar header {
+    text-align: center;
+    padding: 20px 15px; /* Increased padding */
+}
+
+#navbar header h2 {
+    font-size: 1.5em; /* Slightly increased */
+    margin: 0;
+    white-space: nowrap;
+    color: #333;
+    line-height: 1.2; /* Added to control vertical spacing */
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 80px); /* Adjusted height calculation */
+}
+
+#navbar li {
+    font-size: 1.4em; /* Slightly reduced font size */
+    padding: 15px; /* Reduced padding */
+    border: 2px solid #333;
+    margin: 0; /* Remove margin between items */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4d4d4;
+    border-radius: 0; /* Remove rounded corners */
+    transition: background-color 0.3s;
+}
+
+#navbar li:hover {
+    background-color: #c0c0c0;
+    cursor: pointer;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#navbar li a:visited {
+    color: #333;
+}
+
+#navbar li a:hover {
+    color: #000;
+}
+
+#main-doc {
+    margin-left: 420px; /* Adjusted to account for wider navbar */
+    padding: 20px;
+    width: calc(100% - 440px);
+}
+
+#main-doc a {
+    text-decoration: none;
+    color: #000;
+}
+
+#main-doc a:visited {
+    color: #000;
+}
+
+#main-doc a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    
+    #navbar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    #navbar ul {
+        height: auto;
+    }
+    
+    #navbar li {
+        margin: 0;
+        padding: 10px;
+        border-width: 1px 0; /* Only show top/bottom borders on mobile */
+    }
+    
+    #main-doc {
+        margin-left: 0;
+        width: 100%;
+    }
+}
